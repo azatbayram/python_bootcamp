@@ -13,3 +13,27 @@ if 1 <= grade_level <= 18:
         print('Grad School')
 else:
     print('Invalid grade level')
+
+print('-------------------------------')
+"""
+'A': excellent
+'B': great job
+'C': good
+'D': passed
+'F': failed
+other wise: invalid
+"""
+grade = 'B'
+
+if grade == 'A':
+    print('excellent')
+elif grade == 'B':
+    print('great job')
+elif grade == 'C':
+    print('good')
+elif grade == 'D':
+    print('passed')
+elif grade == 'F':
+    print('failed')
+else:
+    print('invalid')
